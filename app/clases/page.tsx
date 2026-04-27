@@ -46,7 +46,7 @@ function PageHero() {
           </div>
         </Reveal>
         <Reveal delay={0.1}>
-          <h1 className="display-mega text-6xl md:text-8xl lg:text-[10rem] leading-[0.9]">
+          <h1 className="display-mega text-[clamp(2.25rem,11vw,3.75rem)] md:text-8xl lg:text-[10rem] leading-[0.9]">
             Encuentra tu
             <br />
             <span className="text-ember italic">hora del fuego.</span>
@@ -71,7 +71,7 @@ function Pricing() {
           <Reveal className="md:bg-surface">
             <div className="p-8 md:p-10 h-full relative">
               <div className="label-luxury text-ember mb-4">Tu primera vez</div>
-              <div className="display-mega text-5xl md:text-6xl mb-2">
+              <div className="display-mega text-[clamp(2rem,4.5vw,3.75rem)] mb-2">
                 $777
               </div>
               <div className="text-ash text-sm mb-6">10 días consecutivos</div>
@@ -96,7 +96,7 @@ function Pricing() {
             </div>
             <div className="p-8 md:p-10 h-full">
               <div className="label-luxury text-ember mb-4">Mensualidad</div>
-              <div className="display-mega text-5xl md:text-6xl mb-2">
+              <div className="display-mega text-[clamp(2rem,4.5vw,3.75rem)] mb-2">
                 Ilimitado
               </div>
               <div className="text-ash text-sm mb-6">Mes completo · todas las clases</div>
@@ -118,7 +118,7 @@ function Pricing() {
           <Reveal delay={0.2} className="md:bg-surface">
             <div className="p-8 md:p-10 h-full">
               <div className="label-luxury text-ember mb-4">Paquete</div>
-              <div className="display-mega text-5xl md:text-6xl mb-2">
+              <div className="display-mega text-[clamp(2rem,4.5vw,3.75rem)] mb-2">
                 4 clases
               </div>
               <div className="text-ash text-sm mb-6">Vigencia 30 días</div>
@@ -154,7 +154,7 @@ function ScheduleSection() {
       <div className="container-luxe">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-12">
           <Reveal className="lg:col-span-7">
-            <h2 className="display-mega text-5xl md:text-7xl">
+            <h2 className="display-mega text-[clamp(2rem,6vw,4.5rem)]">
               Calendario
               <br />
               <span className="text-ember italic">semanal.</span>
@@ -182,7 +182,7 @@ function Programs() {
       <div className="container-luxe">
         <Reveal>
           <div className="label-luxury text-ember mb-6">Programas especiales</div>
-          <h2 className="display-mega text-5xl md:text-7xl mb-16">
+          <h2 className="display-mega text-[clamp(2rem,6vw,4.5rem)] mb-16">
             Para los que
             <br />
             <span className="text-ember italic">van más profundo.</span>

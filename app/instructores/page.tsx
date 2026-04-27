@@ -46,7 +46,7 @@ function PageHero() {
           </div>
         </Reveal>
         <Reveal delay={0.1}>
-          <h1 className="display-mega text-6xl md:text-8xl lg:text-[10rem] leading-[0.9]">
+          <h1 className="display-mega text-[clamp(2.25rem,11vw,3.75rem)] md:text-8xl lg:text-[10rem] leading-[0.9]">
             Maestras y
             <br />
             <span className="text-ember italic">maestros del</span>
@@ -76,7 +76,7 @@ function InHouse() {
       <div className="container-luxe">
         <Reveal>
           <div className="label-luxury text-ember mb-6">01 · La casa</div>
-          <h2 className="display-mega text-5xl md:text-7xl mb-16">
+          <h2 className="display-mega text-[clamp(2rem,6vw,4.5rem)] mb-16">
             Equipo
             <br />
             <span className="text-ember italic">residente.</span>
@@ -139,7 +139,7 @@ function Guests() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-16">
           <Reveal className="lg:col-span-6">
             <div className="label-luxury text-ember mb-6">02 · Invitados</div>
-            <h2 className="display-mega text-5xl md:text-7xl">
+            <h2 className="display-mega text-[clamp(2rem,6vw,4.5rem)]">
               Maestros del
               <br />
               <span className="text-ember italic">mundo.</span>

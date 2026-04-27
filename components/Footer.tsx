@@ -29,12 +29,12 @@ export default function Footer() {
 
           <div className="md:col-span-2 md:col-start-7">
             <div className="label-luxury text-ember mb-5">Navegación</div>
-            <ul className="space-y-3">
+            <ul className="space-y-1">
               {NAV.map((item) => (
                 <li key={item.href}>
                   <Link
                     href={item.href}
-                    className="text-cream hover:text-ember transition-colors"
+                    className="inline-flex items-center min-h-[44px] min-w-[44px] py-2 text-cream hover:text-ember transition-colors"
                   >
                     {item.label}
                   </Link>
@@ -68,13 +68,13 @@ export default function Footer() {
               <div className="space-y-1.5 pt-2">
                 <a
                   href={`tel:${STUDIO.phone.replace(/\s/g, "")}`}
-                  className="block text-ash hover:text-ember transition-colors"
+                  className="inline-flex items-center min-h-[44px] py-2 text-ash hover:text-ember transition-colors"
                 >
                   {STUDIO.phone}
                 </a>
                 <a
                   href={`mailto:${STUDIO.email}`}
-                  className="block text-ash hover:text-ember transition-colors break-all"
+                  className="inline-flex items-center min-h-[44px] py-2 text-ash hover:text-ember transition-colors break-all"
                 >
                   {STUDIO.email}
                 </a>
@@ -84,12 +84,12 @@ export default function Footer() {
         </div>
 
         <div className="mt-16 pt-8 border-t border-ember/10 flex flex-col md:flex-row md:items-center justify-between gap-6">
-          <div className="flex items-center gap-6">
+          <div className="flex items-center gap-4 sm:gap-6">
             <a
               href={SOCIAL.instagram}
               target="_blank"
               rel="noopener noreferrer"
-              className="label-luxury text-ash hover:text-ember transition-colors"
+              className="label-luxury inline-flex items-center min-h-[44px] py-2 text-ash hover:text-ember transition-colors"
             >
               Instagram
             </a>
@@ -98,7 +98,7 @@ export default function Footer() {
               href={SOCIAL.facebook}
               target="_blank"
               rel="noopener noreferrer"
-              className="label-luxury text-ash hover:text-ember transition-colors"
+              className="label-luxury inline-flex items-center min-h-[44px] py-2 text-ash hover:text-ember transition-colors"
             >
               Facebook
             </a>
@@ -107,7 +107,7 @@ export default function Footer() {
               href={SOCIAL.wellhub}
               target="_blank"
               rel="noopener noreferrer"
-              className="label-luxury text-ash hover:text-ember transition-colors"
+              className="label-luxury inline-flex items-center min-h-[44px] py-2 text-ash hover:text-ember transition-colors"
             >
               Wellhub
             </a>
@@ -123,7 +123,7 @@ export default function Footer() {
             href="https://www.cata.consulting"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[0.65rem] uppercase tracking-[0.2em] text-ash/60 hover:text-ember transition-colors"
+            className="inline-flex items-center justify-center min-h-[44px] py-2 text-[0.65rem] uppercase tracking-[0.2em] text-ash/60 hover:text-ember transition-colors"
           >
             Web design by Cata Consulting
           </a>

@@ -15,10 +15,10 @@ export default function IntroOffer() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-end">
           <Reveal className="lg:col-span-7">
             <div className="label-luxury text-ember">Tu primera vez</div>
-            <h2 className="display-mega text-6xl md:text-8xl lg:text-9xl mt-4 leading-[0.85]">
+            <h2 className="display-mega text-6xl md:text-8xl lg:text-[clamp(6rem,9vw,9rem)] mt-4 leading-[0.85] break-words">
               <span className="block">10 días.</span>
               <span className="block text-ember italic">$777.</span>
-              <span className="block text-ash text-3xl md:text-5xl font-light not-italic mt-3">
+              <span className="block text-ash text-3xl md:text-5xl font-light not-italic mt-3 tracking-[0.02em]">
                 Una entrada al fuego.
               </span>
             </h2>
@@ -29,7 +29,7 @@ export default function IntroOffer() {
               Diez días consecutivos. Para los que vienen por primera vez o
               regresan después de meses.
             </p>
-            <ul className="mt-8 space-y-3 text-sm text-ash">
+            <ul className="mt-8 space-y-3 text-base md:text-sm text-ash">
               <li className="flex items-start gap-3">
                 <span className="text-ember mt-1">✦</span>
                 <span>Acceso a todas las clases de Bikram Serie 26</span>

@@ -70,7 +70,7 @@ function Hero() {
             </Reveal>
 
             <Reveal delay={0.1}>
-              <h1 className="display-mega text-[clamp(3.5rem,11vw,12rem)]">
+              <h1 className="display-mega text-[clamp(2.25rem,6.5vw,8rem)]">
                 Donde el
                 <br />
                 <span className="text-ember italic">fuego</span> nos
@@ -184,7 +184,7 @@ function Practices() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-20">
           <Reveal className="lg:col-span-5">
             <div className="label-luxury text-ember mb-6">02 · La práctica</div>
-            <h2 className="display-mega text-5xl md:text-7xl">
+            <h2 className="display-mega text-[clamp(2rem,6vw,4.5rem)]">
               Cuatro caminos.
               <br />
               <span className="text-ember italic">Una misma sala.</span>
@@ -254,7 +254,7 @@ function Lineage() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
           <Reveal className="lg:col-span-4">
             <div className="label-luxury text-ember mb-6">03 · Linaje</div>
-            <h2 className="display-mega text-5xl md:text-6xl leading-[0.95]">
+            <h2 className="display-mega text-[clamp(2rem,4vw,3.25rem)] leading-[0.95]">
               No somos
               <br />
               un estudio
@@ -310,7 +310,7 @@ function Lineage() {
             </p>
             <Link
               href="/instructores"
-              className="inline-flex items-center gap-3 px-6 py-3 border border-ember/30 rounded-full hover:bg-ember/5 transition-colors label-luxury text-cream"
+              className="inline-flex items-center gap-3 px-6 py-3 min-h-[44px] border border-ember/30 rounded-full hover:bg-ember/5 transition-colors label-luxury text-cream"
             >
               Conoce al equipo
               <span>→</span>
@@ -340,7 +340,7 @@ function CredentialCard({
         <span className="label-luxury text-ember">{tag}</span>
       </div>
       <h3 className="display-section text-2xl md:text-3xl mb-3">{name}</h3>
-      <p className="text-sm text-cream/70 leading-relaxed">{detail}</p>
+      <p className="text-base md:text-sm text-cream/70 leading-relaxed">{detail}</p>
     </div>
   );
 }
@@ -352,7 +352,7 @@ function SchedulePreview() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-16">
           <Reveal className="lg:col-span-7">
             <div className="label-luxury text-ember mb-6">04 · Horarios</div>
-            <h2 className="display-mega text-5xl md:text-7xl">
+            <h2 className="display-mega text-[clamp(2rem,6vw,4.5rem)]">
               Una sala caliente,
               <br />
               <span className="text-ember italic">todos los días.</span>
@@ -510,7 +510,7 @@ function FinalCTA() {
       <div className="container-luxe relative">
         <Reveal className="text-center max-w-4xl mx-auto">
           <div className="label-luxury text-ember mb-8">07 · Te esperamos</div>
-          <h2 className="display-mega text-6xl md:text-8xl lg:text-9xl leading-[0.85]">
+          <h2 className="display-mega text-[clamp(2.25rem,11vw,3.75rem)] md:text-8xl lg:text-[clamp(6rem,9vw,9rem)] leading-[0.85]">
             Nos vemos
             <br />
             en el <span className="text-ember italic">mat.</span>

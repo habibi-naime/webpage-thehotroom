@@ -37,13 +37,18 @@
     text-rendering: optimizeLegibility;
   }
 
+  html {
+    overflow-x: clip;
+  }
+
   body {
     background: var(--color-ink);
     color: var(--color-cream);
     font-family: var(--font-body), system-ui, sans-serif;
     font-weight: 300;
-    overflow-x: hidden;
+    overflow-x: clip;
     position: relative;
+    max-width: 100vw;
   }
 
   body::before {

@@ -46,7 +46,7 @@ function PageHero() {
           </div>
         </Reveal>
         <Reveal delay={0.1}>
-          <h1 className="display-mega text-6xl md:text-8xl lg:text-[10rem] leading-[0.9]">
+          <h1 className="display-mega text-[clamp(2.25rem,11vw,3.75rem)] md:text-8xl lg:text-[10rem] leading-[0.9]">
             Más que un
             <br />
             <span className="text-ember italic">estudio.</span>
@@ -141,7 +141,7 @@ function Values() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-16">
           <Reveal className="lg:col-span-5">
             <div className="label-luxury text-ember mb-6">02 · Lo que somos</div>
-            <h2 className="display-mega text-5xl md:text-7xl">
+            <h2 className="display-mega text-[clamp(2rem,6vw,4.5rem)]">
               Cuatro cosas
               <br />
               <span className="text-ember italic">no negociables.</span>
@@ -184,7 +184,7 @@ function Studio() {
       <div className="container-luxe">
         <Reveal>
           <div className="label-luxury text-ember mb-6">03 · El espacio</div>
-          <h2 className="display-mega text-5xl md:text-7xl mb-16">
+          <h2 className="display-mega text-[clamp(2rem,6vw,4.5rem)] mb-16">
             Plaza Chroma.
             <br />
             <span className="text-ember italic">Cuarenta y dos grados.</span>
@@ -291,7 +291,7 @@ function Numbers() {
           {data.map((d, i) => (
             <Reveal key={d.label} delay={i * 0.08}>
               <div>
-                <div className="display-mega text-6xl md:text-7xl lg:text-8xl text-ember">
+                <div className="display-mega text-[clamp(2.5rem,6vw,5rem)] text-ember">
                   {d.value}
                 </div>
                 <div className="label-luxury text-ash mt-3">{d.label}</div>
@@ -308,8 +308,8 @@ function CTA() {
   return (
     <section className="py-24 md:py-32">
       <div className="container-luxe">
-        <Reveal className="max-w-4xl mx-auto text-center">
-          <h2 className="display-mega text-5xl md:text-7xl">
+        <Reveal className="max-w-4xl mx-auto text-center px-4 md:px-8">
+          <h2 className="display-mega text-[clamp(2rem,6vw,4.5rem)]">
             La mejor manera de
             <br />
             <span className="text-ember italic">conocernos</span> es entrar a

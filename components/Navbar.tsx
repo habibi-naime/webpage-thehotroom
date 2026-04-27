@@ -45,7 +45,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between h-20 md:h-24">
             <Link
               href="/"
-              className="group flex items-center gap-3"
+              className="group flex items-center gap-3 min-h-[44px] min-w-[44px] py-2 -my-2"
               aria-label="The Hot Room — Inicio"
             >
               <Logo />
@@ -69,7 +69,7 @@ export default function Navbar() {
                   <Link
                     key={item.href}
                     href={item.href}
-                    className={`label-luxury transition-colors ${
+                    className={`label-luxury transition-colors inline-flex items-center min-h-[44px] px-2 -mx-2 ${
                       active
                         ? "text-ember"
                         : "text-cream hover:text-ember"
@@ -94,7 +94,7 @@ export default function Navbar() {
                 href={WA.book}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hidden md:inline-flex items-center gap-2 px-5 py-2.5 bg-ember text-ink font-medium text-sm rounded-full hover:bg-ember-soft transition-colors ember-glow"
+                className="hidden md:inline-flex items-center gap-2 px-6 py-3 min-h-[44px] bg-ember text-ink font-medium text-sm rounded-full hover:bg-ember-soft transition-colors ember-glow"
               >
                 Reservar
                 <ArrowIcon />

@@ -48,7 +48,7 @@ function PageHero() {
           </div>
         </Reveal>
         <Reveal delay={0.1}>
-          <h1 className="display-mega text-6xl md:text-8xl lg:text-[10rem] leading-[0.9]">
+          <h1 className="display-mega text-[clamp(2.25rem,11vw,3.75rem)] md:text-8xl lg:text-[10rem] leading-[0.9]">
             Te
             <br />
             <span className="text-ember italic">esperamos.</span>
@@ -101,7 +101,7 @@ function ContactGrid() {
                   href={`https://www.google.com/maps/search/?api=1&query=${mapsQuery}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 self-start px-6 py-3 border border-ember/30 rounded-full label-luxury text-cream hover:bg-ember/5 hover:border-ember/60 transition-colors"
+                  className="inline-flex items-center gap-2 self-start px-6 py-3 min-h-[44px] border border-ember/30 rounded-full label-luxury text-cream hover:bg-ember/5 hover:border-ember/60 transition-colors"
                 >
                   Cómo llegar <span>→</span>
                 </a>
