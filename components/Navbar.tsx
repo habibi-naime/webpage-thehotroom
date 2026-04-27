@@ -182,7 +182,7 @@ export default function Navbar() {
 
 function Logo() {
   return (
-    <div className="relative h-10 w-10 rounded-full overflow-hidden flex items-center justify-center bg-white">
+    <div className="relative h-10 w-10 rounded-full overflow-hidden flex items-center justify-center">
       <img
         src="/images/the-hot-room-logo.svg"
         alt="The Hot Room"
