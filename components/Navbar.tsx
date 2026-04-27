@@ -184,7 +184,7 @@ function Logo() {
   return (
     <div className="relative h-10 w-10 rounded-full overflow-hidden flex items-center justify-center">
       <img
-        src="/images/the-hot-room-logo.svg"
+        src="/images/the-hot-room-logo.png"
         alt="The Hot Room"
         className="h-full w-full object-contain"
       />
