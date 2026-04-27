@@ -182,35 +182,12 @@ export default function Navbar() {
 
 function Logo() {
   return (
-    <div className="relative w-10 h-10 flex items-center justify-center">
-      <svg
-        viewBox="0 0 40 40"
-        className="w-full h-full"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <circle
-          cx="20"
-          cy="20"
-          r="19"
-          stroke="currentColor"
-          strokeWidth="0.5"
-          className="text-ember"
-        />
-        <path
-          d="M20 6 C 13 12, 13 20, 20 28 C 27 20, 27 12, 20 6 Z"
-          fill="currentColor"
-          className="text-ember"
-          opacity="0.9"
-        />
-        <circle
-          cx="20"
-          cy="22"
-          r="2"
-          fill="currentColor"
-          className="text-ink"
-        />
-      </svg>
+    <div className="relative h-10 w-auto flex items-center justify-center">
+      <img
+        src="/images/the-hot-room-logo.svg"
+        alt="The Hot Room"
+        className="h-10 w-auto object-contain"
+      />
     </div>
   );
 }
