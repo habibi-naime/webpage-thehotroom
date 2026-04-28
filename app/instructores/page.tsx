@@ -89,7 +89,7 @@ function InHouse() {
               <article className="group">
                 <div className="grain-img relative aspect-[3/4] bg-surface overflow-hidden rounded-2xl mb-6">
                   <Image
-                    src={placeholders[i % placeholders.length]}
+                    src={inst.image ?? placeholders[i % placeholders.length]}
                     alt={inst.name}
                     fill
                     sizes="(max-width: 768px) 100vw, 33vw"

@@ -3,6 +3,7 @@ export type Instructor = {
   role: string;
   credentials: string[];
   bio: string;
+  image?: string;
   featured?: boolean;
   guest?: boolean;
 };
@@ -37,6 +38,16 @@ export const INSTRUCTORS: Instructor[] = [
       "Múltiples retos de 60 días consecutivos",
     ],
     bio: "Rebeka es ejemplo vivo de constancia. Múltiples retos de 60 días la respaldan. Lleva la disciplina de la práctica diaria al diálogo de cada clase.",
+  },
+  {
+    name: "Luis",
+    role: "Instructor · Bikram Serie 26",
+    credentials: [
+      "Bikram Yoga Teacher",
+      "Especialista en alineación y respiración",
+    ],
+    bio: "Luis enseña desde la precisión y la paciencia. Su clase es una oportunidad de entrar al calor con intención, trabajar cada postura al máximo y salir renovado.",
+    image: "/images/stock/hot-yoga-03.jpg",
   },
 ];
 
